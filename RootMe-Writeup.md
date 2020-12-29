@@ -1,6 +1,6 @@
-# RootME Writeup by Rumble ^^ 
+#RootME Writeup by Rumble ^^ 
 
-# ip= machineip 
+#ip= machineip 
 
 #Task1 
 
@@ -45,7 +45,7 @@ So we have to bypass it since we cant upload our php shell
 
 
 
-# Task4 
+#Task4 
 
 ``````
 Using any PE way we can get root for me I used this command and then head to GTFOBins to see if there is any thing and I found that /usr/bin/python creepy little bit so used google to see if I can get a sudo 
@@ -53,7 +53,7 @@ Using any PE way we can get root for me I used this command and then head to GTF
 # Command>> python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
 
 `````` 
-# Last flag 
+#Last flag 
  1-  Since you have the root P you can claim it 
 
 
